@@ -18,7 +18,7 @@ class ValidatorTest {
     }
 
     @Test
-    fun `validator should accept a late top-row claim`() {
+    fun `validator should reject a late top-row claim`() {
         val ticket = arrayOf(
             arrayOf(4, 16 ,null, null, 48, null, 63, 76, null),
             arrayOf(7, null, 23, 38, null, 52, null, null, 80),
